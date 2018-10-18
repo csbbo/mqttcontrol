@@ -25,7 +25,7 @@ SECRET_KEY = 'h81_ifm(e$kiwuol1h$c^xf1l6$yyjre70p0zf17#$=j-k_g&9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
