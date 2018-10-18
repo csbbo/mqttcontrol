@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block head %}
+<title>控制台</title>
+<link rel="stylesheet" href="{% static 'css/console.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="orient">
+    <ul>
+        <li class="front"><a href="/w/" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">arrow_upward</i></a></li>
+        <li class="left"><a href="/a/" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">arrow_back</i></a></li>
+        <li class="right"><a href="/d/" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">arrow_forward</i></a></li>
+        <li class="back"><a href="/s/" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a></li>
+    </ul>
+</div>
+<div class="waterflow">
+    <a href="/slow/" class="waves-effect waves-light btn">很慢</a>
+    <a href="/genner/" class="waves-effect waves-light btn">一般</a>
+    <a href="/fast/" class="waves-effect waves-light btn">很快</a>
+    <a href="/soon/" class="waves-effect waves-light btn">超快</a>
+</div>
+{% endblock %}

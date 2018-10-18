@@ -1,0 +1,24 @@
+/* 方向盘样式 */
+.orient{
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    width: 160px;
+}
+
+.orient .reft{
+    float: left;
+}
+.orient .right{
+    float: right;
+}
+
+.orient .back{
+    clear: both;
+}
+/* 流水灯速度样式 */
+.waterflow{
+    margin-top: 40px;
+    text-align: center;
+}
